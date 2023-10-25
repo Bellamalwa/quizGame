@@ -15,3 +15,19 @@ if answer.lower() == "microsoft":
     score += 1
 else:
     print("Sorry, you got it wrong, the correct answer is Microsoft.")
+
+answer = input("Which company developed the Windows operating system? ")
+if answer.lower() == "microsoft":
+    print("You got it right!")
+    score += 1
+else:
+    print("Sorry, you got it wrong, the correct answer is Microsoft.")
+    
+answer = input("Which company developed the Windows operating system? ")
+if answer.lower() == "microsoft":
+    print("You got it right!")
+    score += 1
+else:
+    print("Sorry, you got it wrong, the correct answer is Microsoft.")
+    
+
