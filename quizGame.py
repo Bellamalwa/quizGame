@@ -16,18 +16,27 @@ if answer.lower() == "microsoft":
 else:
     print("Sorry, you got it wrong, the correct answer is Microsoft.")
 
-answer = input("Which company developed the Windows operating system? ")
-if answer.lower() == "microsoft":
+answer = input("What does 'URL' stand for? ")
+if answer.lower() == "uniform resource locator":
     print("You got it right!")
     score += 1
 else:
-    print("Sorry, you got it wrong, the correct answer is Microsoft.")
+    print("Sorry, you got it wrong, the correct answer is Uniform Resource Locator.")
     
-answer = input("Which company developed the Windows operating system? ")
-if answer.lower() == "microsoft":
+answer = input("What is 'Wi-Fi' short for? ")
+if answer.lower() == "wireless fidelity":
     print("You got it right!")
     score += 1
 else:
-    print("Sorry, you got it wrong, the correct answer is Microsoft.")
+    print("Sorry, you got it wrong, the correct answer is Wireless Fidelity.")
+    
+answer = input("What does 'CPU' stand for in computer terms? ")
+if answer.lower() == "central processing unit":
+    print("You got it right!")
+    score += 1
+else:
+    print("Sorry, you got it wrong, the correct answer is Central Processing Unit.")
+    print("You got " + str(score) + " questions correct.")
+    print("Your score is " + str((score / 4) * 100) + "%.")
     
 
