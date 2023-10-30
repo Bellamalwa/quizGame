@@ -39,4 +39,12 @@ else:
     print("You got " + str(score) + " questions correct.")
     print("Your score is " + str((score / 4) * 100) + "%.")
     
-
+answer = input("What does 'CPU' stand for in computer terms? ")
+if answer.lower() == "central processing unit":
+    print("You got it right!")
+    score += 1
+else:
+    print("Sorry, you got it wrong, the correct answer is Central Processing Unit.")
+    print("You got " + str(score) + " questions correct.")
+    print("Your score is " + str((score / 4) * 100) + "%.")
+    
